@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
     --background-color: #fff;
@@ -20,6 +20,7 @@ body {
     background-image: url(../img/pizza.jpg);
     background-size: cover;
     background-position: center;
+    margin: 0 0 15px;
 }
 
 .head * {
@@ -35,7 +36,7 @@ body {
     bottom: 0;
     z-index: 1 !important;
     pointer-events: none;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 container {
@@ -55,14 +56,14 @@ nav {
 
 nav > container > .container-content {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin: -6px 0;
 }
 
 nav > container > .container-content > * {
     display: block;
-    padding: 10px 18px;;
+    padding: 10px 18px;
 }
 
 nav .nav-logo {
@@ -79,15 +80,78 @@ nav .nav-link {
 
 .head-content {
     padding: 100px 25px 195px;
+    text-align: center;
 }
 
 .head-content h1 {
     color: #fff;
-    font-weight: 800;
-    font-size: 48px;
+    font-weight: 700;
+    font-size: 54px;
+    margin: 0 0 22px;
 }
 
 .head-content p {
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    padding: 100px 0;
+}
+
+section > .section-column {
+    width: 50%;
+}
+
+section > .section-column:not(:first-child) {
+    padding-left: 25px;
+}
+
+section > .section-column:not(:last-child) {
+    padding-right: 25px;
+}
+
+section img {
+    max-width: 100%;
+}
+
+section h2 {
+    color: var(--body-color);
+    font-weight: 700;
+    font-size: 36px;
+    margin: 12px 0 18px;
+}
+
+section p {
+    color: var(--body-color);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--success-color);
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+section .button {
+    margin-top: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #aaaaaa;
+    border-style: dashed;
+    margin: 0;
+}
+
+footer {
+    margin: 15px 0 0;
 }
