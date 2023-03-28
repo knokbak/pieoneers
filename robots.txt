@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Deny: /assets/css/
+Deny: /assets/js/
+
+Sitemap: sitemap.txt

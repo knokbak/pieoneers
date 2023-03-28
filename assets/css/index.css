@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+:root {
+    --background-color: #fff;
+    --body-color: #0d0004;
+    --success-color: #009146;
+    --error-color: #eb502b;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--body-color);
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: relative;
+}
+
+.head > * {
+    display: relative;
+    z-index: 2;
+}
+
+.head-backing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+container > .container-content {
+    width: 100%;
+    max-width: 1020px;
+}
+
+nav {
+    padding: 18px 0;
+}
+
+nav > container > .container-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: -6px 0;
+}
+
+nav > container > .container-content > * {
+    display: block;
+    padding: 10px;
+}
+
+nav .nav-logo {
+    max-width: 110px;
+}
+
+nav .nav-link {
+    
+}
