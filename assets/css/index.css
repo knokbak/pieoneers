@@ -154,4 +154,42 @@ hr {
 
 footer {
     margin: 15px 0 0;
+    padding: 30px 15px;
+    background: #171717;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .footer-content-block {
+    flex: 1 1 300px;
+}
+
+footer h6, footer p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 2px;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer a {
+    font-weight: 500;
+    color: #fff !important;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+footer .legal-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #aaa;
+    margin: 18px 0 0;
 }
