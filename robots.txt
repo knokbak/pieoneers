@@ -1,5 +1,5 @@
 User-Agent: *
-Allow: /
+Deny: /
 Deny: /assets/css/
 Deny: /assets/js/
 
