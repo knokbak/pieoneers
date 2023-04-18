@@ -193,3 +193,55 @@ footer .legal-text {
     color: #aaa;
     margin: 18px 0 0;
 }
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu-item {
+    flex: 1 1 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu h6, .menu p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--body-color);
+    margin: 0 0 10px;
+}
+
+.menu p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #aaa;
+    background: #fff !important;
+    color: #000 !important;
+    border-radius: 5px;
+}
+
+form .form-group:not(:last-child) {
+    margin: 0 0 18px;
+}
+
+form label {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 4px;
+}
+
+form label .required {
+    color: #ff4343;
+}
