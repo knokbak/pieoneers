@@ -3,4 +3,3 @@
     Access-Control-Allow-Methods: *
     Access-Control-Allow-Headers: *
     X-Frame-Options: DENY
-    X-Maintainer: olli.ovh
