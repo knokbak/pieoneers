@@ -58,7 +58,7 @@ nav > container > .container-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0;
+    padding: 0 18px;
 }
 
 nav > container > .container-content > * {
