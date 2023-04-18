@@ -99,6 +99,7 @@ nav .nav-link {
 section {
     display: flex;
     padding: 100px 0;
+    justify-content: center;
 }
 
 section > .section-column {
@@ -129,6 +130,31 @@ section p {
     font-weight: 500;
     font-size: 18px;
     margin: 0 0 10px;
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    section > .section-column {
+        flex: 1 1 100%;
+        width: calc(100% - 30px);
+        text-align: center;
+    }
+
+    section img {
+        margin: 0 0 20px;
+    }
+
+    section > .section-column.image {
+        order: 1;
+    }
+
+    section > .section-column:not(.image) {
+        order: 2;
+    }
 }
 
 .button {
@@ -244,4 +270,9 @@ form label {
 
 form label .required {
     color: #ff4343;
+}
+
+.about-section {
+    text-align: left;
+    display: block;
 }
