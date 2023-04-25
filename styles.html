@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+            
+            body {
+                font-family: 'Open Sans';
+                color: #0d0004;
+                margin: 0;
+                padding: 25px;
+            }
+
+            .color-box {
+                width: 210px;
+                height: 100px;
+                margin: 16px;
+                padding: 15px;
+                display: inline-block;
+                border: 1px solid #777777;
+                border-radius: 5px;
+                color: #fff;
+            }
+
+            .color-box span {
+                color: inherit;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 54px;
+                margin: 0 0 22px;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 36px;
+                margin: 12px 0 18px;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                margin: 0 0 10px;
+            }
+
+            a {
+                color: inherit !important;
+                text-decoration: underline;
+                text-underline-offset: 2px;
+                font-weight: 600;
+            }
+
+            a:visited {
+                color: #098043;
+            }
+
+            .button {
+                display: inline-block;
+                padding: 10px 15px;
+                background: #098043;
+                border-radius: 100px;
+                color: #fff !important;
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+            code {
+                display: block;
+                font-family: 'Fira Code';
+                padding: 15px;
+                background: #e6e6e6;
+                border-radius: 5px;
+                margin: 16px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <code>
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;<br />
+            color: #0d0004;<br />
+            font-weight: 700;<br />
+            font-size: 54px;<br />
+            margin: 0 0 22px;
+        </code>
+        <hr />
+        <h2>Heading 2</h2>
+        <code>
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;<br />
+            color: #0d0004;<br />
+            font-weight: 700;<br />
+            font-size: 36px;<br />
+            margin: 12px 0 18px;
+        </code>
+        <hr />
+        <p>This is a paragraph. <a href="#">This is a link.</a></p>
+        <code>
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;<br />
+            color: #0d0004;<br />
+            font-weight: 500;<br />
+            font-size: 18px;<br />
+            margin: 0 0 10px;
+        </code>
+        <hr />
+        <div class="color-box" style="background: #fff;color: #000;">
+            <span>Background - #ffffff</span>
+        </div>
+        <div class="color-box" style="background: #0d0004;">
+            <span>Text - #0d0004</span>
+        </div>
+        <div class="color-box" style="background: #098043;">
+            <span>Success - #098043</span>
+        </div>
+        <div class="color-box" style="background: #eb502b;">
+            <span>Error - #eb502b</span>
+        </div>
+        <hr />
+        <a class="button" href="#">Button</a>
+        <code>
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;<br />
+            display: inline-block;<br />
+            padding: 10px 15px;<br />
+            background: #098043;<br />
+            border-radius: 100px;<br />
+            color: #ffffff;<br />
+            font-weight: 700;<br />
+            text-decoration: none;
+        </code>
+    </body>
+</html>
